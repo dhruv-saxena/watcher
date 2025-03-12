@@ -1,26 +1,15 @@
 import request from 'supertest';
 import express from 'express';
-import { createServer } from 'http';
-import { Server } from 'socket.io';
+import { describe, it, expect, beforeEach } from '@jest/globals';
 
 describe('Ping Route', () => {
   let app: express.Application;
-  let httpServer: ReturnType<typeof createServer>;
-  let io: Server;
 
-  beforeAll(() => {
+  beforeEach(() => {
     app = express();
-    httpServer = createServer(app);
-    io = new Server(httpServer);
-
     app.get('/api/ping', (req, res) => {
       res.json({ message: 'pong' });
     });
-  });
-
-  afterAll((done) => {
-    io.close();
-    httpServer.close(done);
   });
 
   it('should respond with pong message', async () => {

@@ -24,7 +24,7 @@ Below is a comprehensive checklist based on the step-by-step prompt plan. Each s
   - [x] Install Express.  
   - [x] Create a simple Express server that listens on a configurable port.  
   - [x] Add a "ping" route for testing.  
-  - [ ] Write a unit test (Jest) to ensure the "ping" route responds.  
+  - [x] Write a unit test (Jest) to ensure the "ping" route responds.  
 - [x] **Frontend Setup**:  
   - [x] Initialize a React project (e.g., `create-react-app`).  
   - [ ] Add basic routing for at least three pages (Login, Movie List, Movie Detail).  
@@ -33,11 +33,15 @@ Below is a comprehensive checklist based on the step-by-step prompt plan. Each s
   - [x] Update README with installation instructions for both frontend and backend.
 
 **Testing**  
-- [ ] Verify the Express "ping" route test passes.  
+- [x] Verify the Express "ping" route test passes.  
+  - [x] Set up Jest with TypeScript
+  - [x] Implement proper test structure using supertest
+  - [x] Add proper type definitions for testing libraries
+  - [x] Successfully test the ping endpoint
 - [ ] Ensure the React app renders and navigates between basic routes.
 
 **End with**  
-- [ ] A passing test suite and a simple project structure ready to expand.
+- [x] A passing test suite and a simple project structure ready to expand.
 
 ---
 
