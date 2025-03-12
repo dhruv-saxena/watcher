@@ -27,8 +27,8 @@ Below is a comprehensive checklist based on the step-by-step prompt plan. Each s
   - [x] Write a unit test (Jest) to ensure the "ping" route responds.  
 - [x] **Frontend Setup**:  
   - [x] Initialize a React project (e.g., `create-react-app`).  
-  - [ ] Add basic routing for at least three pages (Login, Movie List, Movie Detail).  
-  - [ ] Confirm "Hello, Watcher!" renders on the home page.  
+  - [x] Add basic routing for at least three pages (Login, Movie List, Movie Detail).  
+  - [x] Confirm "Hello, Watcher!" renders on the home page.  
 - [x] **Documentation**:  
   - [x] Update README with installation instructions for both frontend and backend.
 
@@ -38,7 +38,7 @@ Below is a comprehensive checklist based on the step-by-step prompt plan. Each s
   - [x] Implement proper test structure using supertest
   - [x] Add proper type definitions for testing libraries
   - [x] Successfully test the ping endpoint
-- [ ] Ensure the React app renders and navigates between basic routes.
+- [x] Ensure the React app renders and navigates between basic routes.
 
 **End with**  
 - [x] A passing test suite and a simple project structure ready to expand.
